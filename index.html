@@ -5,6 +5,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css
+		"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Admin Dashboard</title>
 	</head>
 	<body>
@@ -28,29 +39,58 @@
 			</div>
 			<div class="sidebar">
 				<div class="sidebar__logo">
-					<div class="logo__image"></div>
-					<div class="logo__name"></div>
+					<div class="logo__image mdi mdi-view-dashboard"></div>
+					<div class="logo__name">Dashboard</div>
 				</div>
 				<div class="sidebar__nav">
-					<ul>
-						<li>Home</li>
-						<li>Profile</li>
-						<li>Messages</li>
-						<li>History</li>
-						<li>Task</li>
-						<li>Communities</li>
-					</ul>
-					<ul>
-						<li>Settings</li>
-						<li>Support</li>
-						<li>Privacy</li>
-					</ul>
+					<div class="nav__top nav__grid">
+						<div class="nav__image mdi mdi-home"></div>
+						<div class="nav__title">Home</div>
+						<div class="nav__image mdi mdi-card-account-details-outline"></div>
+						<div class="nav__title">Profile</div>
+						<div class="nav__image mdi mdi-message-reply"></div>
+						<div class="nav__title">Messages</div>
+						<div class="nav__image mdi mdi-clock-time-three"></div>
+						<div class="nav__title">History</div>
+						<div class="nav__image mdi mdi-note-multiple"></div>
+						<div class="nav__title">Task</div>
+						<div class="nav__image mdi mdi-account-group"></div>
+						<div class="nav__title">Communities</div>
+					</div>
+
+					<div class="nav__bottom nav__grid">
+						<div class="nav__image mdi mdi-cog"></div>
+						<div class="nav__title">Settings</div>
+						<div class="nav__image mdi mdi-help-box"></div>
+						<div class="nav__title">Support</div>
+						<div class="nav__image mdi mdi-shield-check"></div>
+						<div class="nav__title">Privacy</div>
+					</div>
 				</div>
 			</div>
 			<div class="content">
-				<div class="content__projects"></div>
-				<div class="content__announcements"></div>
-				<div class="content__trending"></div>
+				<div class="content__projects">
+					<h3>Your Projects</h3>
+					<div class="projects__card">
+						<h3>Super Cool Project</h3>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+							ullam.
+						</p>
+						<div class="card__buttons"></div>
+					</div>
+					<div class="card"></div>
+					<div class="card"></div>
+					<div class="card"></div>
+					<div class="card"></div>
+					<div class="card"></div>
+				</div>
+				<div class="content__announcements">
+					<h3>Announcements</h3>
+				</div>
+				<div class="content__trending">
+					<h3>Trending</h3>
+				</div>
 			</div>
 		</div>
 	</body>
