@@ -6,4 +6,144 @@
 
 body {
 	font-size: 62.5%;
+	font-family: 'Nunito', sans-serif;
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 5fr;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding: 1rem 1.5rem;
+}
+
+.header__search {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	justify-items: start;
+	gap: 1rem;
+}
+
+.header__user {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	align-items: center;
+	justify-items: start;
+	gap: 1rem;
+}
+
+.user__notifications {
+	font-size: 1rem;
+
+}
+
+.user__image {
+	width: 2.5rem;
+}
+
+.user__image img {
+	width: 100%;
+}
+
+.user__name {
+	font-size: 1rem;
+}
+
+.search__magnify {
+	font-size: 1.2rem;
+}
+
+.search__bar {
+	width: 90%;
+	background-color: #e2e8f0;
+	border-radius: 10px;
+	height: 1.5rem;
+	border: none;
+	padding: .5rem 1rem;
+}
+
+.sidebar {
+	color: #f8fafc;
+	background-color: #0369a1;
+	grid-column: 1/2;
+	grid-row: 1 / span end;
+	font-size: 1.2rem;
+	height: 100vh;
+}
+
+.sidebar__logo {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	align-items: center;
+	margin: .5rem 0 1.5rem .5rem;
+	gap: .5rem;
+
+}
+
+.nav__grid {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: auto;
+	align-items: end;
+	margin-left: .5rem;
+	gap: .5rem;
+}
+
+.logo__image {
+	text-align: center;
+	font-size: 2.5rem;
+	
+}
+
+.logo__name {
+	font-size: 1.5rem;
+}
+
+.nav__image {
+	text-align: center;
+	
+}
+
+.nav__title a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #f8fafc;
+	
+	
+}
+
+.nav__title a:hover {
+	color: #B5E2C9;
+	transition: color .2s;
+}
+
+
+.nav__bottom {
+	margin-top: 3rem;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.content__projects {
+	grid-row: 1 / span end;
+
+}
+
+.projects__card {
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #000;
+	width: fit-content;
+border-left: #B5E2C9 5px solid;
+	/* border-left: #14b8a6 5px solid; */
+}
+
