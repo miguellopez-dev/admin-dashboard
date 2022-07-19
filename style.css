@@ -30,6 +30,19 @@ body {
 	gap: 1rem;
 }
 
+.search__magnify {
+	font-size: 1.2rem;
+}
+
+.search__bar {
+	width: 90%;
+	background-color: #e2e8f0;
+	border-radius: 10px;
+	height: 1.5rem;
+	border: none;
+	padding: .5rem 1rem;
+}
+
 .header__user {
 	display: grid;
 	grid-template-columns: 1fr 1fr 2fr 0.5fr;
@@ -53,21 +66,33 @@ body {
 
 .user__name {
 	font-size: 1rem;
-	font-size: 700;
+	font-weight: 700;
 }
 
-.search__magnify {
+
+.header__welcome {
+	display: grid;
+	grid-template-columns: 3.8rem 2fr;
+	gap: .5rem;
+	justify-items: start;
+	align-items: center;
+}
+.welcome__image  {
+	width: 3.5rem;
+}
+.welcome__image img {
+	width: 100%;
+}
+
+.welcome__greeting {
+	font-size: .8rem;
+}
+
+.welcome__name {
+	font-weight: 700;
 	font-size: 1.2rem;
 }
 
-.search__bar {
-	width: 90%;
-	background-color: #e2e8f0;
-	border-radius: 10px;
-	height: 1.5rem;
-	border: none;
-	padding: .5rem 1rem;
-}
 
 .sidebar {
 	color: #f8fafc;
