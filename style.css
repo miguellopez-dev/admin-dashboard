@@ -94,6 +94,27 @@ body {
 }
 
 
+.header__actions {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: baseline;
+	align-items: center;
+}
+
+.actions__button {
+	color: #f8fafc;
+	text-align: center;
+	background-color: #0369a1;
+	border-radius: 15px;
+	padding: 0.5rem 1.5rem;
+	transition: background-color .5s, color .5s;
+}
+
+.actions__button:hover {
+	background-color: #B5E2C9;
+	color: #000;
+}
+
 .sidebar {
 	color: #f8fafc;
 	background-color: #0369a1;
