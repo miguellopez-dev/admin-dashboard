@@ -122,7 +122,7 @@ body {
 	grid-column: 1/2;
 	grid-row: 1 / span end;
 	font-size: 1.2rem;
-	height: 100vh;
+	height: 100%;
 	width: 14.5rem;
 }
 
