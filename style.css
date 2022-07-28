@@ -186,6 +186,7 @@ body {
 
 .content__projects {
 	grid-row: 1 / span end;
+	
 }
 
 .projects__title {
@@ -193,10 +194,17 @@ body {
 	padding-bottom: .5rem;
 }
 
+.project__card-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(13.4rem, 1fr));
+	gap: 1rem;
+
+}
+
 .projects__card {
 	border-radius: 5px;
 	box-shadow: 0px 0px 2px #000;
-	width: 17rem;
+
 	border-left: #B5E2C9 5px solid;
 	padding: 1rem 1rem .5rem;
 	line-height: 1.4;
