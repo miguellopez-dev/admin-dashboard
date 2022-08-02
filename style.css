@@ -180,6 +180,12 @@ body {
 
 /**********  Main Content Section **********/
 
+.card {
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #f8fafc;
+}
+
 .content {
 	padding: 2.5rem 2rem;
 	display: grid;
@@ -207,9 +213,6 @@ body {
 }
 
 .projects__card {
-	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	background-color: #f8fafc;
 	border-left: #b5e2c9 5px solid;
 	padding: 3rem 1.5rem 0.5rem;
 	line-height: 1.4;
@@ -224,9 +227,6 @@ body {
 	font-size: 1.3rem;
 }
 
-.projects__card p {
-}
-
 .projects__buttons {
 	grid-column: 2/3;
 	font-size: 1.7rem;
@@ -234,4 +234,25 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 	justify-items: center;
 	align-items: center;
+}
+
+.announce__card {
+	padding: 1rem 2rem;
+}
+
+.announce__card h3 {
+	font-size: 1.2;
+}
+
+.announce__card p {
+	font-size: 1rem;
+}
+
+.announce__row {
+	padding: 1.5rem 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.announce__row:last-child {
+	border-bottom: none;
 }
