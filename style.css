@@ -184,6 +184,7 @@ body {
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	background-color: #f8fafc;
+	padding: 2.5rem 2rem;
 }
 
 .content {
@@ -214,7 +215,6 @@ body {
 
 .projects__card {
 	border-left: #b5e2c9 5px solid;
-	padding: 3rem 1.5rem 0.5rem;
 	line-height: 1.4;
 	/* border-left: #14b8a6 5px solid; */
 	display: grid;
@@ -233,11 +233,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	justify-items: center;
-	align-items: center;
-}
-
-.announce__card {
-	padding: 1rem 2rem;
+	align-items: end;
 }
 
 .announce__card h3 {
@@ -249,10 +245,33 @@ body {
 }
 
 .announce__row {
-	padding: 1.5rem 0;
+	padding: 0 0 1.5rem;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .announce__row:last-child {
 	border-bottom: none;
+}
+
+.trending__card {
+	display: grid;
+	gap: 1.5rem;
+}
+
+.trending__row {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: center;
+}
+
+.trending__profile {
+	width: 4rem;
+}
+
+.trending__profile img {
+	width: 100%;
+}
+
+.trending__info {
+	font-size: 1rem;
 }
